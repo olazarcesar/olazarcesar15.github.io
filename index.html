@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", content-Type="text/javascript", charset="utf-8">
+    <!-- Esto ajusta la pagina para que se vea mejor la pagina en todos los dispositivos  -->
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+  </head>
+  <body>
+    <div id="cuadro">
+        <div id="datos">
+            <h1>Wordle PPY</h1>
+            <p id="instruccion">Adivina la palabra en 4 intentos!<br>
+            Después de cada intento el color de las letras cambia para mostrar qué tan cerca estás de acertar la palabra.<br></p>
+            <input type="text" id="guess-input" placeholder="Ingrese 5 letras">
+            <button id="guess-button">Intentar</button>
+        </div>
+        <!-- Estos divs separados corresponden a la respuesta del usuario y abajo el control de la respuesta  -->
+        <div id="grid"><!-- Aca van a ir los intentos ya controlados  -->
+        </div>
+        <p id="guesses"><!-- Aca va el mensaje de si ganaste o perdiste  -->
+    </div>
+  </body>
+</html>
